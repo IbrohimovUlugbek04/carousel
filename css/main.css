@@ -1,0 +1,21 @@
+.carousel-item {
+  padding-top: 300px;
+  padding-bottom: 100px;
+}
+
+.business__item__img {
+  max-width: 500px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+  
+  .carousel-item:nth-child(1) {
+    padding-left: 120px;
+  }
+  
+  .carousel-item:last-child {
+    padding-right: 120px;
+  }
+  
+}
